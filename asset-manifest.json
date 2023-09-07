@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Present/static/css/main.84c39acc.css",
-    "main.js": "/Present/static/js/main.27b456c6.js",
+    "main.css": "/Present/static/css/main.394c1511.css",
+    "main.js": "/Present/static/js/main.d4d19be7.js",
     "static/js/787.e88ca06b.chunk.js": "/Present/static/js/787.e88ca06b.chunk.js",
     "static/media/GangwonModuBold.woff": "/Present/static/media/GangwonModuBold.ea38583e612a1c6df0f3.woff",
     "static/media/GangwonModuLight.woff": "/Present/static/media/GangwonModuLight.94556c200ca7510e4416.woff",
     "index.html": "/Present/index.html",
-    "main.84c39acc.css.map": "/Present/static/css/main.84c39acc.css.map",
-    "main.27b456c6.js.map": "/Present/static/js/main.27b456c6.js.map",
+    "main.394c1511.css.map": "/Present/static/css/main.394c1511.css.map",
+    "main.d4d19be7.js.map": "/Present/static/js/main.d4d19be7.js.map",
     "787.e88ca06b.chunk.js.map": "/Present/static/js/787.e88ca06b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84c39acc.css",
-    "static/js/main.27b456c6.js"
+    "static/css/main.394c1511.css",
+    "static/js/main.d4d19be7.js"
   ]
 }
