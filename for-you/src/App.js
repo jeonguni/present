@@ -1,12 +1,11 @@
 import "./assets/style/style.scss";
-import Main from "./pages/Main";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div>
-      <Main />
-      <span>강원교육체입니다.</span>
-    </div>
+    <>
+      <Layout></Layout>
+    </>
   );
 }
 
