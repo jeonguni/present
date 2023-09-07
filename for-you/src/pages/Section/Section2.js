@@ -1,4 +1,6 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const Section2 = () => {
   return (
@@ -18,6 +20,12 @@ const Section2 = () => {
               우리 아이의 관심사를 찾아보세요.
             </p>
           </div>
+          <Swiper spaceBetween={10} slidesPerView={2} className="main-slider">
+            <SwiperSlide className="main-slider-item">Slide 1</SwiperSlide>
+            <SwiperSlide className="main-slider-item">Slide 2</SwiperSlide>
+            <SwiperSlide className="main-slider-item">Slide 3</SwiperSlide>
+            <SwiperSlide className="main-slider-item">Slide 4</SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
