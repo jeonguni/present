@@ -1,0 +1,16 @@
+html {
+  font: {
+    size: 10px;
+    weight: 400;
+    family: "GangwonModu", sans-serif;
+  }
+}
+
+body {
+  font-size: 1.5rem;
+  overscroll-behavior-y: contain;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
