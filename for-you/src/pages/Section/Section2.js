@@ -20,7 +20,12 @@ const Section2 = () => {
               우리 아이의 관심사를 찾아보세요.
             </p>
           </div>
-          <Swiper spaceBetween={10} slidesPerView={2} className="main-slider">
+          <Swiper
+            spaceBetween={10}
+            loop={Infinity}
+            slidesPerView={2}
+            className="main-slider"
+          >
             <SwiperSlide className="main-slider-item">Slide 1</SwiperSlide>
             <SwiperSlide className="main-slider-item">Slide 2</SwiperSlide>
             <SwiperSlide className="main-slider-item">Slide 3</SwiperSlide>

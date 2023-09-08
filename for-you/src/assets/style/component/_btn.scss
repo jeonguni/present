@@ -23,7 +23,7 @@
   &-secondary {
     @include btn;
     width: auto;
-    color: #7952f9;
+    color: #fff;
     background-color: $color-btn;
     box-shadow: none;
   }
@@ -31,7 +31,7 @@
   &-reverse {
     @include btn;
     width: auto;
-    color: #7952f9;
+    color: #fff;
     background-color: $color-btn;
   }
 

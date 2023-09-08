@@ -1,4 +1,6 @@
 import React from "react";
+import { FaAngleRight } from "react-icons/fa6";
+import { AiFillAccountBook } from "react-icons/ai";
 
 const Section3 = () => {
   return (
@@ -12,15 +14,27 @@ const Section3 = () => {
             </p>
           </div>
           <div className="section-third-wrap">
-            <div className="section-third-wrap-item">
-              <span>매일매일 퀴즈 풀고 선물 받으세요!</span>
-            </div>
-            <div className="section-third-wrap-item">
-              <span>매일매일 퀴즈 풀고 선물 받으세요!</span>
-            </div>
-            <div className="section-third-wrap-item">
-              <span>매일매일 퀴즈 풀고 선물 받으세요!</span>
-            </div>
+            <a className="section-third-wrap-item">
+              <b>매일매일 퀴즈 풀고 선물 받으세요!</b>
+              <span>2023.09.07 - 2023.10.06</span>
+              <div className="icon-angle">
+                <FaAngleRight />
+              </div>
+            </a>
+            <a className="section-third-wrap-item">
+              <b>매일매일 퀴즈 풀고 선물 받으세요!</b>
+              <span>2023.09.07 - 2023.10.06</span>
+              <div className="icon-angle">
+                <FaAngleRight />
+              </div>
+            </a>
+            <a className="section-third-wrap-item">
+              <b>매일매일 퀴즈 풀고 선물 받으세요!</b>
+              <span>2023.09.07 - 2023.10.06</span>
+              <div className="icon-angle">
+                <FaAngleRight />
+              </div>
+            </a>
           </div>
         </div>
       </div>

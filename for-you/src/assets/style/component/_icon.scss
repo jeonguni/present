@@ -1,0 +1,21 @@
+@mixin icon {
+  display: inline-block;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.icon {
+  &-angle {
+    @include icon;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      color: #555;
+    }
+  }
+}
