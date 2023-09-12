@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Main from "../pages/Main";
 
-const Layout = () => {
+const Index = () => {
   return (
     <div className="layout">
       <Header />
@@ -11,4 +11,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Index;

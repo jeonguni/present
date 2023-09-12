@@ -8,7 +8,7 @@ const Header = () => {
       </a>
       <ul className="gnb">
         <li>
-          <a href="#">About</a>
+          <a>About</a>
         </li>
         <li>
           <a href="#">Service</a>

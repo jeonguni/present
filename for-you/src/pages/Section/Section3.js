@@ -1,6 +1,5 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa6";
-import { AiFillAccountBook } from "react-icons/ai";
 
 const Section3 = () => {
   return (
@@ -8,9 +7,9 @@ const Section3 = () => {
       <div className="section-third">
         <div className="container">
           <div className="section-third-txt">
-            <h2 className="section-third-main">즐거운 이벤트</h2>
+            <h2 className="section-third-main">즐거운 프로그램</h2>
             <p className="section-third-sub">
-              재미있고 흥미로운 이벤트가 진행되고 있습니다.
+              재미있고 흥미로운 프로그램이 진행되고 있습니다.
             </p>
           </div>
           <div className="section-third-wrap">
