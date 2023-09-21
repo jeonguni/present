@@ -1,11 +1,12 @@
 section {
+  padding-top: 9.2rem;
   padding-bottom: 2rem;
   .container {
     position: relative;
-    height: calc(100vh - 9.5rem);
+    height: inherit;
   }
   .section-first {
-    padding: 9.5rem 1.5rem 2rem;
+    padding: 0rem 1.5rem 2rem;
     background: url(../../images/bg/bg-main-yellow.svg) repeat center center / cover;
     // background: linear-gradient(
     //   180deg,
@@ -13,7 +14,7 @@ section {
     //   $color-secondary 70%,
     //   #fff
     // );
-    height: 100vh;
+    height: calc(100vh - 9.5rem);
     &-txt {
       position: absolute;
       left: 50%;
@@ -25,7 +26,7 @@ section {
     }
     &-main {
       font: {
-        family: "GangwonTeunTeun";
+        family: 'GangwonTeunTeun';
         weight: 700;
         size: 6rem;
       }
@@ -43,8 +44,8 @@ section {
   }
 
   .section-second {
-    padding: 3rem 2rem;
-    margin-bottom: 20rem;
+    padding: 10rem 2rem 0;
+    margin-bottom: 10rem;
     .container {
       height: auto;
     }
@@ -52,7 +53,7 @@ section {
       font: {
         size: 3.5rem;
         weight: 700;
-        family: "GangwonTeunTeun";
+        family: 'GangwonTeunTeun';
       }
     }
     &-sub {
@@ -82,7 +83,7 @@ section {
       font: {
         size: 3.5rem;
         weight: 700;
-        family: "GangwonTeunTeun";
+        family: 'GangwonTeunTeun';
       }
     }
     &-sub {
