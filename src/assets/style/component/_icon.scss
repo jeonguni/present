@@ -1,12 +1,6 @@
 @mixin icon {
   display: inline-block;
   position: relative;
-  svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 }
 
 .icon {
@@ -16,6 +10,27 @@
       width: 2rem;
       height: 2rem;
       color: #555;
+    }
+  }
+  &-kakao {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &-insta {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &-youtube {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
     }
   }
 }

@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { RiKakaoTalkFill, RiInstagramLine, RiYoutubeFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
@@ -8,13 +10,19 @@ const Footer = () => {
           <div className="logo"></div>
           <ul>
             <li>
-              <a>필요한</a>
+              <Link to="https://naver.com" target="_blank" className="icon-kakao">
+                <RiKakaoTalkFill />
+              </Link>
             </li>
             <li>
-              <a>SNS</a>
+              <Link to="https://naver.com" target="_blank" className="icon-insta">
+                <RiInstagramLine />
+              </Link>
             </li>
             <li>
-              <a>링크</a>
+              <Link to="https://naver.com" target="_blank" className="icon-youtube">
+                <RiYoutubeFill />
+              </Link>
             </li>
           </ul>
         </div>
@@ -31,6 +39,14 @@ const Footer = () => {
             <li>
               <b>사업자등록번호</b>
               <span>123-45-6789</span>
+            </li>
+            <li>
+              <b>TEL</b>
+              <span>010-1234-5678</span>
+            </li>
+            <li>
+              <b>E-mail</b>
+              <span>abcd@gmail.com</span>
             </li>
           </ul>
         </div>

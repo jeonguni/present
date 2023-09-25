@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Pagination, A11y } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
