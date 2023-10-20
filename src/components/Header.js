@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <Link to={`${process.env.PUBLIC_URL}/present`} className="logo">
+      <Link to="/present" className="logo">
         업체이름 입력
       </Link>
       <ul className="gnb">
